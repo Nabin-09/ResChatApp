@@ -1,5 +1,7 @@
 
 import React from "react";
+import Victory from '../../assets/victory.svg'
+import Background from '../../assets/login2.png'
 
 const Auth = () => {
     return(
@@ -13,11 +15,16 @@ const Auth = () => {
                     <div className="flex items-center justify-center flex-col">
 
                         <div className="flex items-center justify-center">
-                            <div className="text-5xl font-bold md:text-6xl"></div>
+
+                            <h1 className="text-5xl font-bold md:text-6xl">Welcome</h1>
+                            <img src={Victory} alt="Victory emoji" className="h-[100px]"/>
 
                         </div>
 
+                        <p className="font-medium text-center">Fill in the details to start with the app</p>
+
                     </div>
+                    <div className="flex items-center justify-center w-full"></div>
                 </div>
 
             </div>    
